@@ -92,9 +92,17 @@
 # print(cubes_list)
 
 # TASK 9
+# from square_package.cubic_generator import CubicGenerator
+# cubic_gen = CubicGenerator()
+
+# # Generate cubes
+# cubes_list = cubic_gen.generate_squares(7, 4)
+# print(cubes_list)
+
+# TASK 10
 from square_package.cubic_generator import CubicGenerator
 cubic_gen = CubicGenerator()
 
 # Generate cubes
-cubes_list = cubic_gen.generate_squares(7, 4)
+cubes_list = cubic_gen.generate_squares(4, 7)
 print(cubes_list)
